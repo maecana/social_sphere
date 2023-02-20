@@ -19,20 +19,33 @@ Listed below are the technologies used to make this app possible
 | Name | Link | Description |
 | ------ | ------ | ------ |
 | ReactJS | [https://reactjs.org/](https://reactjs.org/) | Front-end Framework |
+| Sanity | [https://www.sanity.io/](https://www.sanity.io/) | Backend Composable Content Cloud |
 
 
 
 ## Packages/Dependencies
-- 
+- @sanity/cli
 
 
 
 ## Install Packages/Dependencies
 Install packages using the following command:
-- Go to `social_sphere_frontend/core` folder: `cd social_sphere_frontend/core`
-- Yarn Install: `yarn install`
-- NPM Install: `npm install`
+- Install packages in Frontend:
+    - Go to `social_sphere_frontend/core` folder: `cd social_sphere_frontend/core`
+- Install packages in Backend:
+    - Go to `social_sphere_backend` folder: `cd social_sphere_backend`
+- Install all global packages:
+    - Go to root directory folder: `cd /`
+- Then install packages in yarn and in npm:
+    - Yarn Install: `yarn install`
+    - NPM Install: `npm install`
 
+
+## Sanity Setup
+- Create an account in sanity.io [https://www.sanity.io/](https://www.sanity.io/)
+- Then create the studio by in the `social_sphere_backend` folder:
+    - `cd social_sphere_backend`
+    - `npm create sanity@latest -- --coupon javascriptmastery2022`
 
 
 ## Run the Client
