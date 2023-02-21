@@ -46,6 +46,10 @@ Install packages using the following command:
 - Then create the studio by in the `social_sphere_backend` folder:
     - `cd social_sphere_backend`
     - `npm create sanity@latest -- --coupon javascriptmastery2022`
+- To run sanity:
+    - `npm run dev`
+    - Go to `http://localhost:3333/`
+
 
 
 ## Run the Client
