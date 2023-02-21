@@ -2,7 +2,7 @@
 
 > Author: Mae Anave Caña    
 > Since: 2023-02-20    
-> Updated: 2023-02-20    
+> Updated: 2023-02-21    
 > Version: 1.0    
 
 
@@ -20,11 +20,13 @@ Listed below are the technologies used to make this app possible
 | ------ | ------ | ------ |
 | ReactJS | [https://reactjs.org/](https://reactjs.org/) | Front-end Framework |
 | Sanity | [https://www.sanity.io/](https://www.sanity.io/) | Backend Composable Content Cloud |
+| Tailwind | [https://tailwindcss.com/](https://tailwindcss.com/) | CSS Framework |
 
 
 
 ## Packages/Dependencies
 - @sanity/cli
+- tailwindcss
 
 
 
@@ -41,19 +43,22 @@ Install packages using the following command:
     - NPM Install: `npm install`
 
 
-## Sanity Setup
+## Backend - Sanity Setup
 - Create an account in sanity.io [https://www.sanity.io/](https://www.sanity.io/)
 - Then create the studio by in the `social_sphere_backend` folder:
     - `cd social_sphere_backend`
     - `npm create sanity@latest -- --coupon javascriptmastery2022`
 - To run sanity:
+    - Go to the folder you created from running `create sanity`:
+        - `cd social_sphere_backend/core/` 
     - `npm run dev`
     - Go to `http://localhost:3333/`
 
 
 
-## Run the Client
+## Frontend - Run the Client
 Start the client server by going to `social_sphere_frontend/core` folder and running `development` environment
+- Installation of tailwind with create-react-app is [here](https://tailwindcss.com/docs/guides/create-react-app).
 - `cd social_sphere_frontend/core/`
 - Yarn Run: `yarn run start`
 - Go to `http://localhost:3000/`
