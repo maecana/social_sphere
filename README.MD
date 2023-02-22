@@ -27,6 +27,8 @@ Listed below are the technologies used to make this app possible
 ## Packages/Dependencies
 - @sanity/cli
 - tailwindcss
+- @sanity/client
+- @sanity/image-url
 
 
 
