@@ -1,10 +1,11 @@
+// Local Imports
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <h1 className="text-3xl font-bold underline">
         social_sphere
-    </div>
+    </h1>
   );
 }
 

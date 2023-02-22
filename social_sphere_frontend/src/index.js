@@ -1,5 +1,7 @@
+// Package / Dependency Imports
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// Local Imports
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
