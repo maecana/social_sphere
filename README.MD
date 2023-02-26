@@ -25,10 +25,17 @@ Listed below are the technologies used to make this app possible
 
 
 ## Packages/Dependencies
-- @sanity/cli
 - tailwindcss
+- @sanity/cli
 - @sanity/client
 - @sanity/image-url
+- react-router-dom
+- react-masonry-css
+- react-loader-spinner
+- react-icons
+- jwt-decode
+- @react-oauth/google@latest
+- uuid
 
 
 
