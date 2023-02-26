@@ -21,6 +21,7 @@ Listed below are the technologies used to make this app possible
 | ReactJS | [https://reactjs.org/](https://reactjs.org/) | Front-end Framework |
 | Sanity | [https://www.sanity.io/](https://www.sanity.io/) | Backend Composable Content Cloud |
 | Tailwind | [https://tailwindcss.com/](https://tailwindcss.com/) | CSS Framework |
+| React OAuth2 | [(https://www.npmjs.com/package/@react-oauth/google)]((https://www.npmjs.com/package/@react-oauth/google)) |  Google Identity Services SDK for React |
 
 
 
@@ -63,7 +64,40 @@ Install packages using the following command:
     - `npm run dev`
     - Go to `http://localhost:3333/`
 
-
+## Google OAuth Setup
+- Go to [Google Cloud Console](https://console.cloud.google.com/)
+- Create a `New Project` called `social-sphere`
+- After creating the new project `social-sphere`, select the project
+- Open the navigation menu and go to `APIs & Services`>`Credentials`
+- Click `Configure Consent Screen` button
+- Select `External` for the `User Type` then click `Create` button
+- Enter the necessary `App Information`
+    - Fill the `name` field with `Social Sphere`
+    - Add developer contact information
+    - You can leave the rest as empty
+- Click `Save and Continue`
+- After saving, leave `Scopes` empty
+- Then again click `Save and Continue`
+- Click `Save and Continue` again fot the `Test Users` tab
+- And click `Go back to Dashboard`
+- Under `APIs & Services` Menu, click `Credentials`
+- Click `Create Credentials` and choose `OAuth Client ID`
+- Select `Web Application` for the `Application Type`
+- Add `Social Sphere` as the name of the application
+- Impotant step:
+    - Add Authorized JS origins
+        - Add `http://localhost`
+        - Add `http://localhost:3000`
+    - Add Authorized redirect URIs
+        - Add `http://localhost`
+        - Add `http://localhost:3000`
+    - Click `Create`
+    - Download OAuth client created
+    - Note: You can choose to download the json file of the OAuth client, and save it to a folder called `secrets` in the root directory
+        - Don't forget to add the `/secrets/` folder to the `.gitignore` file
+- Once created, OAuth 2.0 Client ID is created
+    - Copy the `Client ID`
+    - Save to .env file
 
 ## Frontend - Run the Client
 Start the client server by going to `social_sphere_frontend/core` folder and running `development` environment
