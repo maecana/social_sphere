@@ -1,5 +1,4 @@
 #### SOCIAL_SPHERE
-
 > Author: Mae Anave Caña    
 > Since: 2023-02-20    
 > Updated: 2023-02-21    
@@ -13,7 +12,6 @@ A dynamic social media platform designed to bring people from all walks of life 
 
 
 ## Technologies
-
 Listed below are the technologies used to make this app possible
 
 | Name | Link | Description |
@@ -53,6 +51,7 @@ Install packages using the following command:
     - NPM Install: `npm install`
 
 
+
 ## Backend - Sanity Setup
 - Create an account in sanity.io [https://www.sanity.io/](https://www.sanity.io/)
 - Then create the studio by in the `social_sphere_backend` folder:
@@ -63,6 +62,8 @@ Install packages using the following command:
         - `cd social_sphere_backend/core/` 
     - `npm run dev`
     - Go to `http://localhost:3333/`
+
+
 
 ## Google OAuth Setup
 - Go to [Google Cloud Console](https://console.cloud.google.com/)
@@ -98,6 +99,8 @@ Install packages using the following command:
 - Once created, OAuth 2.0 Client ID is created
     - Copy the `Client ID`
     - Save to .env file
+
+
 
 ## Frontend - Run the Client
 Start the client server by going to `social_sphere_frontend/core` folder and running `development` environment
