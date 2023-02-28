@@ -1,5 +1,8 @@
+# Msc
 /.vscode
 */node_modules
+
+# Sensitive
 /secrets/
 
 # Environments
