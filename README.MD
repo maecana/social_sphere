@@ -19,7 +19,7 @@ Listed below are the technologies used to make this app possible
 | ReactJS | [https://reactjs.org/](https://reactjs.org/) | Front-end Framework |
 | Sanity | [https://www.sanity.io/](https://www.sanity.io/) | Backend Composable Content Cloud |
 | Tailwind | [https://tailwindcss.com/](https://tailwindcss.com/) | CSS Framework |
-| React OAuth2 | [(https://www.npmjs.com/package/@react-oauth/google)]((https://www.npmjs.com/package/@react-oauth/google)) |  Google Identity Services SDK for React |
+| React OAuth2 | [https://www.npmjs.com/package/@react-oauth/google](https://www.npmjs.com/package/@react-oauth/google)) |  Google Identity Services SDK for React |
 
 
 
